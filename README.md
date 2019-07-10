@@ -1,4 +1,5 @@
 # Cucumber tutorial
+[![CircleCI Build Status](https://circleci.com/gh/YuriyPent/cucumber_example.svg?style=shield)](https://circleci.com/gh/YuriyPent/cucumber_example)
 ### Create an empty Cucumber project
 * Start by creating a new project directory with the `cucumber-archetype`
   ```powershell
@@ -36,13 +37,11 @@ public void today_is_Sunday() {
     // Write code here that turns the phrase above into concrete actions
     throw new PendingException();
 }
-
 @When("^I ask whether it's Friday yet$")
 public void i_ask_whether_it_s_Friday_yet() {
     // Write code here that turns the phrase above into concrete actions
     throw new PendingException();
 }
-
 @Then("^I should be told \"([^\"]*)\"$")
 public void i_should_be_told(String arg1) {
     // Write code here that turns the phrase above into concrete actions
